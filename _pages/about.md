@@ -10,7 +10,7 @@ redirect_from:
 
 Welcome to my personal academic website!
 
-I am a PhD student in Economics at University of Alicante. My research focuses on Macroeconomics, and more specifically on entrepreneurship and firm dynamics.
+I am a PhD student in Economics at University of Alicante. My research focuses on **Macroeconomics**, and more specifically on entrepreneurship and firm dynamics.
 
 ## Research Interests
 - Entrepreneurship
