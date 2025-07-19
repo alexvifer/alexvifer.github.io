@@ -29,7 +29,7 @@ author:
   location         : "Alicante, Spain"
   employer         : # "Red Brick University"
   uri              : # URL
-  email            : "alexvicentefernandez@gmail.com / alejandro.vicente@ua.es" 
+  email            : "alejandro.vicente@ua.es" 
 
   # Academic websites
   academia         : # URL
@@ -52,7 +52,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
