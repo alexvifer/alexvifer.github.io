@@ -22,7 +22,7 @@ repository               : "alexvifer/alexvifer.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/IMG-1883.jpg"
+  avatar           : "/images/photo.jpg"
   name             : "Alejandro Vicente"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
