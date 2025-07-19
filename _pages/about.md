@@ -18,6 +18,6 @@ I am a PhD student in Economics at University of Alicante. My research focuses o
 - Productivity and misallocation
 
 ## Education
-**PhD in Economics** - University of Alicante, 2024 - Present
-**MSc in Quantitative Economics** - University of Alicante, 2024
+**PhD in Economics** - University of Alicante, 2024 - Present<br>
+**MSc in Quantitative Economics** - University of Alicante, 2024<br>
 **BSc in Economics** - Universidad Complutense de Madrid, 2021
