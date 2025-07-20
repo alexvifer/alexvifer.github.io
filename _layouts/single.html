@@ -25,7 +25,13 @@ layout: default
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
+        <!-- Clean Page Banner (No Title) -->
+        {% if page.title %}
+        <div class="page-banner" style="height: 150px; margin-bottom: 40px; border-radius: 12px; background-image: url('/images/banner-{{ page.title | downcase }}.jpg'); background-size: cover; background-position: center; box-shadow: 0 8px 16px rgba(0,0,0,0.15); overflow: hidden;">
+        </div>
+        {% endif %}
+        
+        <header style="display: none;">
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
