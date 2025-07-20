@@ -354,3 +354,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Custom CSS
+after_footer_scripts:
+  - /assets/css/custom.css
