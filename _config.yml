@@ -16,7 +16,7 @@ description              : &description "PhD Student in Economics at University 
 url                      : "https://alexvifer.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "alexvifer/alexvifer.github.io"
-keywords: "Alejandro Vicente, Economics, PhD, University of Alicante, Macroeconomics, alexvifer"
+keywords                 : "Alejandro Vicente, Economics, PhD, University of Alicante, Macroeconomics, alexvifer"
 
 
 # Site Author - The following control what appear as part of the author content on the side bar.
