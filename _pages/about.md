@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal academic website!
+I am Alejandro Vicente, PhD student in Economics at University of Alicante.  
 
-I am a PhD student in Economics at University of Alicante. My research focuses on **Macroeconomics**, and more specifically on entrepreneurship and firm dynamics.
+My research focuses on **Macroeconomics**, and more specifically on entrepreneurship and firm dynamics.
 
 ## Research Interests
 - Entrepreneurship
