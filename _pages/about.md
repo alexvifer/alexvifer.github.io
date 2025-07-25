@@ -17,7 +17,7 @@ My research focuses on **Macroeconomics**, and more specifically on entrepreneur
 - Firm dynamics  
 - Productivity and misallocation
 
-## Education
+<!-- ## Education
 **PhD in Economics** - University of Alicante, 2024 - Present<br>
 **MSc in Quantitative Economics** - University of Alicante, 2024<br>
-**BSc in Economics** - Universidad Complutense de Madrid, 2021
+**BSc in Economics** - Universidad Complutense de Madrid, 2021 -->
