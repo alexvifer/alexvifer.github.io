@@ -8,16 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I am Alejandro Vicente, PhD student in Economics at University of Alicante.  
+I am **Alejandro Vicente**, PhD student in Economics at University of Alicante.  
 
-My research focuses on **Macroeconomics**, and more specifically on entrepreneurship and firm dynamics.
-
-## Research Interests
-- Entrepreneurship
-- Firm dynamics  
-- Productivity and misallocation
-
-<!-- ## Education
-**PhD in Economics** - University of Alicante, 2024 - Present<br>
-**MSc in Quantitative Economics** - University of Alicante, 2024<br>
-**BSc in Economics** - Universidad Complutense de Madrid, 2021 -->
+My research broadly focuses on **Quantitative Macroeconomics**, and more specifically on entrepreneurship, firm dynamics and education. The common thread of my research agenda is to understand how different types of frictions and educational patterns affect the allocation of resources and shape the macroeconomy.
