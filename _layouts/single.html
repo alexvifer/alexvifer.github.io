@@ -25,14 +25,13 @@ layout: default
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
-        <!-- Clean Page Banner (No Title) -->
         {% if page.title %}
         <div class="page-banner" style="height: 250px; margin-bottom: 40px; border-radius: 12px; background-image: url('/images/banner-{{ page.title | downcase }}.jpg'); background-size: cover; background-position: center; box-shadow: 0 8px 16px rgba(0,0,0,0.15); overflow: hidden; position: relative;">
           
-          {% if page.painting_caption %}
-            <span style="position: absolute; bottom: 10px; right: 15px; color: rgba(255,255,255,0.8); font-style: italic; font-size: 0.75em; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); font-family: 'Georgia', serif;">
-              {{ page.painting_caption }}
-            </span>
+          {% if page.painting_info %}
+            <div style="position: absolute; bottom: 8px; right: 15px; color: rgba(255, 255, 255, 0.85); font-family: 'Georgia', serif; font-style: italic; font-size: 0.7rem; text-shadow: 1px 1px 3px rgba(0,0,0,0.7); pointer-events: none;">
+              {{ page.painting_info }}
+            </div>
           {% endif %}
           
         </div>
