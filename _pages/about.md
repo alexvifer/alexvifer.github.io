@@ -3,7 +3,7 @@ permalink: /
 title: "Home"
 excerpt: "About me"
 author_profile: true
-painting_info: "Sunset, Sorrento. Thomas Fearnley"
+painting_info: "Sunset, Sorrento. Fearnley"
 redirect_from: 
   - /about/
   - /about.html
