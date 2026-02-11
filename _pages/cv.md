@@ -3,7 +3,7 @@ layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
-painting_info: "Venice, from the Porch of Madonna della Salute. J.M.W. Turner"
+painting_info: "Venice, from the Porch of Madonna della Salute. Turner"
 ---
 
 You can download my CV as a PDF file:
