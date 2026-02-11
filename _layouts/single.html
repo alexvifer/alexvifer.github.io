@@ -26,15 +26,16 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         {% if page.title %}
-        <div class="page-banner" style="height: 250px; margin-bottom: 40px; border-radius: 12px; background-image: url('/images/banner-{{ page.title | downcase }}.jpg'); background-size: cover; background-position: center; box-shadow: 0 8px 16px rgba(0,0,0,0.15); overflow: hidden; position: relative;">
+          <div class="page-banner" style="height: 250px; margin-bottom: 5px; border-radius: 12px; background-image: url('{{ base_path }}/images/banner-{{ page.title | downcase }}.jpg'); background-size: cover; background-position: center; box-shadow: 0 8px 16px rgba(0,0,0,0.15); overflow: hidden;">
+          </div>
           
           {% if page.painting_info %}
-            <div style="position: absolute; bottom: 8px; right: 15px; color: rgba(255, 255, 255, 0.85); font-family: 'Georgia', serif; font-style: italic; font-size: 0.7rem; text-shadow: 1px 1px 3px rgba(0,0,0,0.7); pointer-events: none;">
+            <div style="text-align: right; margin-bottom: 35px; padding-right: 5px; color: #666; font-family: 'Georgia', serif; font-style: italic; font-size: 0.75rem;">
               {{ page.painting_info }}
             </div>
+          {% else %}
+            <div style="margin-bottom: 40px;"></div>
           {% endif %}
-          
-        </div>
         {% endif %}
         
         <header style="display: none;">
@@ -42,17 +43,17 @@ layout: default
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        
-        {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}    
+          {% if page.modified %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+          {% endif %}
+          
+          {% if page.collection == 'teaching' %}
+            <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% elsif page.venue and page.date %}
+            <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% elsif page.date %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+          {% endif %}    
         </header>
       {% endunless %}
 
