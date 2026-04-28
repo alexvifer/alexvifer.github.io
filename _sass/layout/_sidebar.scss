@@ -133,12 +133,12 @@
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
-  font-weight: 500;
-  color: #043361;
+  font-weight: 500 !important;
+  color: #043361 !important;
 }
 
 .sidebar .author__bio {
-  color: #043361;
+  color: #043361 !important;
   font-weight: 400;
 }
 
