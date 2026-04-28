@@ -8,6 +8,6 @@ painting_info: "Venice, from the Porch of Madonna della Salute. Turner"
 
 You can download my CV as a PDF file:
 
-[Download CV (PDF)](/files/Academic_CV.pdf)
+[Download CV (PDF)](/files/Academic_CV (2).pdf)
 
 *Last updated: 19/07/2025*
