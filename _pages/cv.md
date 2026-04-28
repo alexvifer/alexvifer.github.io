@@ -10,4 +10,4 @@ You can download my CV as a PDF file:
 
 [Download CV (PDF)](/files/Academic_CV (2).pdf)
 
-*Last updated: 19/07/2025*
+*Last updated: 28/04/2026*
